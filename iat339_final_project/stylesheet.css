@@ -47,6 +47,7 @@ h2{
   font-weight:lighter;
   margin:0;
     padding:0;
+   
 }
 
 h3{
@@ -424,7 +425,7 @@ justify-content:flex-end;
 
 .work_box1{
 display: flex;
-width:100%;
+
 margin-left:26.4%;
 
 }
@@ -459,9 +460,8 @@ margin-left:27.4%;
 }
 
 .poster{
-width:20.3%;
- margin-left:40%;
-
+width:30.5%;
+ margin-left:59.5%;
 }
 
 #footer{
@@ -475,4 +475,94 @@ width:20.3%;
 
 }
 
+.project_box1{
+  width:50%;
+margin-left:50%;
+}
 
+.project_box2{
+  width:50%;
+}
+
+.project_box3{
+  width:50%;
+margin-left:50%;
+}
+
+.project_box4{
+  width:50%;
+}
+
+
+.project_box5{
+  width:50%;
+margin-left:50%;
+}
+
+.project_box6{
+  width:50%;
+}
+
+.project_box7{
+  width:50%;
+margin-left:50%;
+}
+
+.project_box8{
+  width:50%;
+}
+
+.project_box9{
+  width:50%;
+margin-left:50%;
+}
+
+.project_box10{
+  width:50%;
+}
+
+.project_box11{
+  width:50%;
+margin-left:50%;
+
+}
+
+
+.project_box12{
+  width:25%;
+
+}
+
+.project_box13{
+  width:25%;
+
+}
+
+.project_box14{
+  width:50%;
+  margin-left:50%;
+}
+
+.project_box15{
+  width:50%;
+
+}
+
+
+.project_box16{
+  width:25%;
+}
+
+.project_box17{
+  width:25%;
+}
+
+.project_box18{
+  width:50%;
+margin-left:50%;
+
+}
+
+.project_box19{
+  width:50%;
+}
