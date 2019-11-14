@@ -35,20 +35,13 @@ header {
 }
 
 h1{
-  font-size: 900%;
+  font-size: 9em;
   margin:0;
   padding:0;
- 
+ width:100%;
 
 }
 
-h2{
-  font-size: 450%;
-  font-weight:lighter;
-  margin:0;
-    padding:0;
-   
-}
 
 h3{
    font-size: 350%;
@@ -268,6 +261,7 @@ nav a:hover {
 
 }
 
+
 .styleguide_h2{
   font-size:45%;
   font-weight:bold;
@@ -327,19 +321,25 @@ div.color{
   }
 }
 
+
+@media screen and (min-width: 769px) {
 .title_box1 {
   display:flex;
-  flex-grow: 1;
-  width:100%;
+
   }
 
 .title_box1 div{
    border:1px black solid;
-flex-grow: 3;
-width:100%;
-padding-right:7.9%;
 }
 
+#h1_0{
+flex-grow:4;
+}
+
+#h1_1{
+
+flex-grow:2;
+}
 
 .title_box2 {
   display:flex;
@@ -381,7 +381,6 @@ margin-left:27.5%;
   }
 
  
-
 .homepage_img{
   display:flex;
 justify-content:flex-end;
@@ -406,10 +405,7 @@ justify-content:flex-end;
   margin-left:27.4%;
   margin-top: 20%;
     border:1px black solid;
-
 }
-
-
 
  .overlay a {
    width: 140px;
@@ -462,6 +458,210 @@ margin-left:27.4%;
 .poster{
 width:30.5%;
  margin-left:59.5%;
+}
+}
+
+
+@media screen and (max-width: 768px)  {
+.title_box1 {
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  }
+
+.title_box1 div{
+   border:1px black solid;
+
+
+  flex-grow:1;
+}
+
+#h1_1{
+  font-size: 50%;
+flex-grow:1;
+}
+
+
+.title_box2 {
+  display:flex;
+justify-content:flex-end;
+  width:100%;
+  border:1px black solid;
+  }
+
+  #h1_2{
+    padding-right:9%;
+    font-size: 50%;
+  }
+
+.title_box3 {
+  display:flex;
+  flex-grow: 1;
+  width:78%;
+  }
+
+.title_box3 div{
+   border:1px black solid;
+
+
+}
+#h1_3{
+
+flex-grow:2;
+}
+
+#h1_4{
+font-size: 50%;
+flex-grow:2.8;
+}
+
+.title_box4 {
+  display:flex;
+margin-left:29.8%;
+  border:1px black solid;
+ font-size: 50%;
+  }
+
+.homepage_img{
+  display:flex;
+justify-content:flex-end;
+  width:100%;
+  border:1px black solid;
+}
+
+.bio{
+ display:block;
+
+  width:72%;
+  margin-left:27.7%;
+  border:1px black solid;
+  font-weight:bold;
+}
+#bio1{
+  padding-left:36%;
+}
+
+
+.work_h2{
+  margin-left:27.4%;
+  margin-top: 20%;
+    border:1px black solid;
+font-size: 50%;
+}
+
+ .overlay a {
+   width: 140px;
+  height: 140px;
+ filter: grayscale(100%);
+ }
+
+ .overlay a:hover{
+    width: 140px;
+  height: 140px;
+ filter: brightness(100%);
+  }
+
+.work_box1{
+display: flex;
+
+margin-left:26.4%;
+
+}
+
+.work_box1 div{
+  border:1px black solid;
+}
+
+
+.work1_title{
+  padding-left:1%;
+}
+
+
+.brand_logo{
+  width:30%;
+ margin-left:60%;
+}
+
+.work_box2{
+display: flex;
+
+margin-left:27.4%;
+}
+
+.work_box2 div{
+  border:1px black solid;
+}
+
+.work2_title{
+
+}
+
+.poster{
+width:30.5%;
+ margin-left:59.5%;
+}
+
+
+}
+
+@media screen and (max-width: 415px) {
+.title_box1 {
+  display:flex;
+  }
+
+.title_box1 div{
+   border:1px black solid;
+
+}
+
+#h1_1{
+font-size: 30%;
+
+}
+
+.title_box2 {
+  border:1px black solid;
+  justify-content: flex-start;
+  }
+
+  #h1_2{
+  font-size: 30%; 
+  }
+
+.title_box3 {
+display: block;
+  flex-grow: 1;
+  width:78%;
+  }
+
+.title_box3 div{
+   border:1px black solid;
+
+
+}
+#h1_3{
+
+
+}
+
+#h1_4{
+  font-size: 30%;
+}
+
+.title_box4 {
+  border:1px black solid;
+   font-size: 30%;
+   margin-left: 0;
+  }
+
+.work_h2{
+  margin-left:27.4%;
+  margin-top: 20%;
+    border:1px black solid;
+    font-size: 30%
+}
+
 }
 
 #footer{
@@ -565,4 +765,18 @@ margin-left:50%;
 
 .project_box19{
   width:50%;
+}
+
+@media screen and (max-width: 768px)  {
+.project_title{
+font-size: 50%;
+}
+
+}
+
+@media screen and (max-width: 415px)  {
+.project_title{
+font-size: 30%;
+}
+
 }
