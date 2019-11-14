@@ -18,8 +18,8 @@ img, p, h1, h2, h3, h4{
 body {
   background:  #f6f3f0;
  font-family: 'Oxygen', Helvetica, sans-serif;
-  margin-left:2%;
-  margin-right:2%;
+  margin-left:5%;
+  margin-right:5%;
 }
 
 header {
@@ -38,7 +38,7 @@ h1{
   font-size: 900%;
   margin:0;
   padding:0;
-  vertical-align: baseline;
+ 
 
 }
 
@@ -336,7 +336,7 @@ div.color{
    border:1px black solid;
 flex-grow: 3;
 width:100%;
-padding-right:8.7%;
+padding-right:7.9%;
 }
 
 
@@ -348,7 +348,7 @@ justify-content:flex-end;
   }
 
   #h1_2{
-    padding-right:9.2%;
+    padding-right:8%;
   }
 
 .title_box3 {
@@ -359,22 +359,27 @@ justify-content:flex-end;
 
 .title_box3 div{
    border:1px black solid;
-flex-grow: 6;
-width:60%;
+
+
+}
+#h1_3{
+ padding-right:23.2%;
+
 }
 
 #h1_4{
- padding-right:26%;
 
 }
 
 .title_box4 {
   display:flex;
-margin-left:39%;
+margin-left:27.5%;
   border:1px black solid;
-  width:100%;
+ 
 
   }
+
+ 
 
 .homepage_img{
   display:flex;
@@ -384,12 +389,26 @@ justify-content:flex-end;
 }
 
 .bio{
- display:flex;
+ display:block;
 
-  width:61%;
-  margin-left:39%;
+  width:72%;
+  margin-left:27.7%;
   border:1px black solid;
+  font-weight:bold;
 }
+#bio1{
+  padding-left:36%;
+}
+
+
+.work_h2{
+  margin-left:27.4%;
+  margin-top: 20%;
+    border:1px black solid;
+
+}
+
+
 
  .overlay a {
    width: 140px;
@@ -406,21 +425,43 @@ justify-content:flex-end;
 .work_box1{
 display: flex;
 width:100%;
-justify-content:flex-end;
+margin-left:26.4%;
+
 }
 
 .work_box1 div{
   border:1px black solid;
 }
 
+
+.work1_title{
+  padding-left:1%;
+}
+
+
+.brand_logo{
+  width:30%;
+ margin-left:60%;
+}
+
 .work_box2{
 display: flex;
-width:100%;
-justify-content:flex-end;
+
+margin-left:27.4%;
 }
 
 .work_box2 div{
   border:1px black solid;
+}
+
+.work2_title{
+
+}
+
+.poster{
+width:20.3%;
+ margin-left:40%;
+
 }
 
 #footer{
