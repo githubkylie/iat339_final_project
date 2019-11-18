@@ -328,7 +328,7 @@ div.color{
   }
 
 .title_box1 div{
-   border:1px black solid;
+
 }
 
 #h1_0{
@@ -344,7 +344,7 @@ flex-grow:2;
   display:flex;
 justify-content:flex-end;
   width:100%;
-  border:1px black solid;
+
   }
 
   #h1_2{
@@ -358,7 +358,7 @@ justify-content:flex-end;
   }
 
 .title_box3 div{
-   border:1px black solid;
+
 
 
 }
@@ -374,7 +374,7 @@ justify-content:flex-end;
 .title_box4 {
   display:flex;
 margin-left:27.5%;
-  border:1px black solid;
+
  
 
   }
@@ -384,7 +384,7 @@ margin-left:27.5%;
   display:flex;
 justify-content:flex-end;
   width:100%;
-  border:1px black solid;
+
 }
 
 .bio{
@@ -392,7 +392,7 @@ justify-content:flex-end;
 
   width:72%;
   margin-left:27.7%;
-  border:1px black solid;
+
   font-weight:bold;
 }
 #bio1{
@@ -403,7 +403,7 @@ justify-content:flex-end;
 .work_h2{
   margin-left:27.4%;
   margin-top: 20%;
-    border:1px black solid;
+
 }
 
  .overlay a {
@@ -420,13 +420,11 @@ justify-content:flex-end;
 
 .work_box1{
 display: flex;
-
 margin-left:26.4%;
-
 }
 
 .work_box1 div{
-  border:1px black solid;
+
 }
 
 
@@ -436,18 +434,18 @@ margin-left:26.4%;
 
 
 .brand_logo{
-  width:30%;
- margin-left:60%;
+  width:37%;
+ margin-left:73.8%;
+
 }
 
 .work_box2{
 display: flex;
-
 margin-left:27.4%;
 }
 
 .work_box2 div{
-  border:1px black solid;
+
 }
 
 .work2_title{
@@ -469,7 +467,7 @@ width:30.5%;
   }
 
 .title_box1 div{
-   border:1px black solid;
+
   flex-grow:1;
 }
 
@@ -481,7 +479,7 @@ width:30.5%;
   display:flex;
 justify-content:flex-end;
   width:100%;
-  border:1px black solid;
+
   }
 
   #h1_2{
@@ -496,7 +494,7 @@ justify-content:flex-end;
   }
 
 .title_box3 div{
-   border:1px black solid;
+
 
 
 }
@@ -513,7 +511,7 @@ flex-grow:2.8;
 .title_box4 {
   display:flex;
 margin-left:26.8%;
-  border:1px black solid;
+
  font-size: 70%;
   }
 
@@ -521,7 +519,7 @@ margin-left:26.8%;
   display:flex;
 justify-content:flex-end;
   width:100%;
-  border:1px black solid;
+
 }
 
 #homepage_img{
@@ -531,7 +529,7 @@ justify-content:flex-end;
  display:block;
   width:72%;
   margin-left:27.7%;
-  border:1px black solid;
+
   font-weight:bold;
 }
 #bio1{
@@ -542,7 +540,7 @@ justify-content:flex-end;
 .work_h2{
   margin-left:27.4%;
   margin-top: 20%;
-    border:1px black solid;
+
 font-size: 50%;
 }
 
@@ -565,7 +563,7 @@ margin-left:27%;
 }
 
 .work_box1 div{
-  border:1px black solid;
+
 }
 
 
@@ -587,7 +585,7 @@ margin-left:27%;
 }
 
 .work_box2 div{
-  border:1px black solid;
+
 }
 
 .work2_title{
@@ -609,7 +607,7 @@ width:29%;
   }
 
 .title_box1 div{
-   border:1px black solid;
+ 
   flex-grow:1;
 }
 
@@ -623,7 +621,7 @@ flex-grow:1;
   display:flex;
 justify-content:flex-end;
   width:100%;
-  border:1px black solid;
+
   }
 
   #h1_2{
@@ -638,7 +636,7 @@ justify-content:flex-end;
   }
 
 .title_box3 div{
-   border:1px black solid;
+
 
 
 }
@@ -655,7 +653,7 @@ flex-grow:2.8;
 .title_box4 {
   display:flex;
 margin-left:29.8%;
-  border:1px black solid;
+
  font-size: 50%;
   }
 
@@ -663,7 +661,7 @@ margin-left:29.8%;
   display:flex;
 justify-content:flex-end;
   width:100%;
-  border:1px black solid;
+
 }
 
 #homepage_img{
@@ -676,7 +674,7 @@ justify-content:flex-end;
 
   width:100%;
 
-  border:1px black solid;
+
   font-weight:bold;
 }
 #bio1{
@@ -687,7 +685,7 @@ justify-content:flex-end;
 .work_h2{
   margin-left:27.4%;
   margin-top: 20%;
-    border:1px black solid;
+ 
 font-size: 50%;
 }
 
@@ -711,7 +709,7 @@ margin-left:26.4%;
 }
 
 .work_box1 div{
-  border:1px black solid;
+
 }
 
 
@@ -732,7 +730,7 @@ margin-left:27.4%;
 }
 
 .work_box2 div{
-  border:1px black solid;
+ 
 }
 
 .work2_title{
@@ -753,7 +751,7 @@ width:30.5%;
   }
 
 .title_box1 div{
-   border:1px black solid;
+ 
 
 }
 
@@ -763,7 +761,7 @@ font-size: 30%;
 }
 
 .title_box2 {
-  border:1px black solid;
+
   justify-content: flex-start;
   }
 
@@ -778,7 +776,7 @@ display: block;
   }
 
 .title_box3 div{
-   border:1px black solid;
+
 
 
 }
@@ -792,7 +790,7 @@ display: block;
 }
 
 .title_box4 {
-  border:1px black solid;
+ 
    font-size: 30%;
    margin-left: 0;
   }
@@ -800,7 +798,7 @@ display: block;
 .work_h2{
   margin-left:27.4%;
   margin-top: 20%;
-    border:1px black solid;
+
     font-size: 30%
 }
 
@@ -819,7 +817,7 @@ justify-content:flex-start;
 
   width:100%;
 
-  border:1px black solid;
+
   font-weight:bold;
 }
 #bio1{
@@ -830,7 +828,7 @@ justify-content:flex-start;
 .work_h2{
   margin-left:27.4%;
   margin-top: 20%;
-    border:1px black solid;
+
 font-size: 50%;
 }
 
@@ -856,7 +854,7 @@ margin-left:26.4%;
 }
 
 .work_box1 div{
-  border:1px black solid;
+
 }
 
 
@@ -877,7 +875,7 @@ margin-left:27.4%;
 }
 
 .work_box2 div{
-  border:1px black solid;
+
 }
 
 .work2_title{
