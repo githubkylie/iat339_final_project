@@ -17,7 +17,7 @@ img, p, h1, h2, h3, h4{
 
 body {
   background:  white;
- font-family: 'Montserrat', Helvetica, sans-serif;
+ font-family: 'Montserrat', Arial, sans-serif;
   margin-left:10%;
   margin-right:10%;
 }
@@ -35,7 +35,7 @@ header {
 }
 
 h1{
-  font-family: "Tahoma", Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
  
   margin:0;
   padding:0;
@@ -44,9 +44,9 @@ h1{
 }
 
 h2{
-   font-family: "Roboto Condensed", Helvetica, sans-serif;
+   font-family: "Roboto Condensed", Arial, sans-serif;
    font-size: 44px;
-     font-weight:bold;
+    font-weight:bold;
    margin:0;
   padding:0;
  width:100%;
@@ -343,18 +343,18 @@ div.color{
  
 }
 
-@media screen and (max-width:991px){
+@media screen and (max-width:1024px){
   .home_h1{
- margin-left:15%;
+ margin-left:1%;
  margin-bottom:20%;
  margin-top:15%;
  font-size: 52px;
 }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:769px){
   .home_h1{
- margin-left:15%;
+
  margin-bottom:20%;
  margin-top:15%;
  font-size: 40px;
@@ -363,7 +363,6 @@ div.color{
 
 @media screen and (max-width:479px){
   .home_h1{
- margin-left:15%;
  margin-bottom:20%;
  margin-top:15%;
  font-size: 28px;
@@ -374,10 +373,12 @@ div.color{
   display:flex;
   width:auto;
   background-color: #f5f4f4;
-  
+ margin-left:10%;
+  margin-right:12%;
+   margin-bottom:10%;
 }
 
-
+ 
 
 .home_box1_left{
   margin-right:2%;
@@ -394,25 +395,34 @@ div.color{
 
 }
 .project_heading{
-  margin-top:20px;
-    margin-bottom:15px;
+  margin-top:2%;
+    margin-bottom:2%;
 }
 
-.home_project1{
-  margin-left:10%;
-  margin-right:12%;
-   margin-bottom:10%;
-}
+
 
 .view_button{
- background-color: white;
- font-family: "Tahoma", Helvetica, sans-serif;
- font-weight: bold;
- font-size: 16px;
+ background-color:transparent;
+ font-family: "Ubuntu", Helvetica, sans-serif;
+ font-size: 20px;
+ border-color: transparent;
+ padding:0;
+  opacity: 0.6;
+  font-weight: bold;
+  
 }
 
+.view_button a:hover{
+background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
+  }
+
 #project1_button{
- margin-top:25%;
+ margin-top:5%;
   margin-left:auto;
   margin-bottom: auto;
 }
@@ -426,7 +436,7 @@ width:100%;
 }
 
 #project2_button{
-  margin-top:25%;
+  margin-top:5%;
 }
 
 .title_h1{
@@ -434,6 +444,182 @@ color:#67686d;
 font-size: 16px;
 }
 
+@media screen and (max-width:1024px){
+  .home_project1{
+margin-left:0;
+margin-right:0;
+width:auto;
+  }
+
+  .title_h1{
+    font-size: 16px;
+  }
+.project_heading{
+  margin-top:2%;
+  margin-bottom:2%;
+  font-size: 52px;
+}
+
+.project-text{
+  font-size: 16px;
+  line-height: 2;
+}
+
+.view_button{
+ background-color:transparent;
+ font-family: "Ubuntu", Helvetica, sans-serif;
+ opacity: 0.6;
+ font-size: 24px;
+ border-color: transparent;
+}
+
+.view_button a:hover{
+background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  }
+
+  #project1_button{
+ margin-top:5%;
+  margin-left:auto;
+  margin-bottom: auto;
+}
+
+ #project2_button{
+ margin-top:5%;
+  margin-left:auto;
+  margin-bottom: auto;
+}
+
+}
+
+@media screen and (max-width:769px){
+  .home_project1{
+margin-left:0;
+margin-right:0;
+width:auto;
+  }
+  .title_h1{
+    font-size: 13px;
+  }
+.project_heading{
+  margin-top:2%;
+  margin-bottom:2%;
+  font-size: 42px;
+}
+
+.project-text{
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.view_button{
+ background-color:transparent;
+ font-family: "Ubuntu", Helvetica, sans-serif;
+ opacity: 0.6;
+ font-size: 14px;
+ border-color: transparent;
+
+}
+
+.view_button a:hover{
+background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  }
+
+  #project1_button{
+ margin-top:5%;
+  margin-left:auto;
+  margin-bottom: auto;
+}
+
+ #project2_button{
+ margin-top:5%;
+  margin-left:auto;
+  margin-bottom: auto;
+}
+  }
+
+  @media screen and (max-width:479px){
+.home_project1{
+  display:block;
+  width:auto;
+  background-color: #f5f4f4;
+ margin-left:10%;
+  margin-right:12%;
+   margin-bottom:10%;
+}
+
+ 
+.home_box1_left{
+  width:100%;
+   padding:1%;
+}
+
+.home_box1_right{
+   width:100%;
+padding:1%;
+}
+
+.home_project1{
+margin-left:0;
+margin-right:0;
+width:auto;
+}
+
+  .title_h1{
+    font-size: 11px;
+  }
+.project_heading{
+  margin-top:2%;
+  margin-bottom:2%;
+  font-size: 24px;
+}
+
+.project-text{
+  font-size: 11px;
+  line-height: 1;
+}
+
+.view_button{
+ background-color:transparent;
+ font-family: "Ubuntu", Helvetica, sans-serif;
+ opacity: 0.6;
+ font-size: 14px;
+ border-color: transparent;
+
+}
+
+.view_button a:hover{
+background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  }
+
+  #project1_button{
+ margin-top:5%;
+  margin-left:auto;
+  margin-bottom: auto;
+}
+
+ #project2_button{
+ margin-top:5%;
+  margin-left:auto;
+  margin-bottom: auto;
+}  
+  }
 
 #footer{
   border-top-width: 1px;
