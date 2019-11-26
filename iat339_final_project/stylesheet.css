@@ -226,7 +226,7 @@ nav a:hover {
     top: initial;
     left: initial;
   
-    grid-column: 3 / 4;
+    grid-column: 4 / 4;
     display: flex;
  
     align-items: center;
@@ -904,6 +904,137 @@ font-weight: bold;
  font-family: 'Montserrat', Arial, sans-serif;
  line-height: 200%;
 }
+
+.brainstorm{
+  display: block;
+  width:auto;
+  margin-bottom: 10%;
+}
+
+
+.brainstorm_left{
+  width:50%;
+  margin-right: 2%;
+}
+
+.brainstorm_right{
+  width:50%;
+}
+
+.process_title{
+  margin-bottom: 2%;
+}
+
+.project_text{
+  line-height: 200%;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.brainstorm_map{
+  width:100%;
+}
+
+.plan, .sketch{
+ display: block;
+  width:auto;
+  margin-bottom: 10%;
+}
+
+.pro_box1, .pro_box2, .pro_box3, .pro_box4, .pro_box6{
+  display: flex;
+  width:auto;
+  
+}
+
+.plan_left{
+  width:50%;
+  margin-right: 2%;
+}
+
+.plan_right{
+  width:50%;
+}
+
+.sketch_left{
+    width:50%;
+  margin-right: 2%;
+}
+
+.sketch_right{
+    width:50%;
+}
+
+.sketch_img{
+  width:50%;
+}
+
+.ai{
+margin-bottom:10%;
+}
+
+.ai_left{
+    width:50%;
+  margin-right: 2%;
+}
+
+.ai_right{
+    width:50%;
+}
+
+.ai_img{
+  width:50%;
+}
+
+.logo_color{
+  display: flex;
+}
+
+.color{
+  margin-bottom:10%;
+}
+
+.card_letterhead{
+margin-bottom:10%;
+
+}
+
+.card_letterhead_left{
+    width:50%;
+  margin-right: 2%;
+}
+
+.card_letterhead_right{
+    width:50%;
+}
+
+.final{
+  margin-bottom:10%;
+}
+
+.project_button{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#button_right{
+  width:11.5%;
+}
+
+.click_button{
+  font-size: 20px;
+  color:white;
+  background-color: black;
+  padding:2%;
+ font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.click_button a{
+  color:white;
+}
+
 
 #footer{
   border-top-width: 1px;
