@@ -86,7 +86,7 @@ li,a {
 }
 
 p a:hover{
-text-decoration:underline;
+text-decoration:none;
 }
 
 p a:focus{
@@ -98,7 +98,7 @@ a{
 }
 
 a:hover{
-text-decoration:underline;
+text-decoration:none;
 
 }
 
@@ -106,7 +106,7 @@ text-decoration:underline;
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
-
+ 
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
@@ -156,16 +156,18 @@ nav {
   left: 0;
   background: var(--background);
   width: 100%;
-
+ 
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
+
 }
 
 nav ul {
-  margin: 0;
+  margin-left: 0;
   padding: 0;
   list-style: none;
+
 }
 
 nav li {
@@ -194,7 +196,7 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
   .nav-toggle-label {
     display: none;
   }
@@ -206,7 +208,7 @@ nav a:hover {
   
   .logo {
     grid-column: 1 / 3;
-    width:28%;
+    width:30%;
     margin-top:0.5em;
     margin-bottom:0.5em;
     margin-left:0.5em;
@@ -214,30 +216,32 @@ nav a:hover {
   }
   
   nav {
-    // all: unset; 
+    all: unset; 
 
     position: relative;
-    text-align: left;
+ 
     transition: none;
     transform: scale(1,1);
     background: none;
     top: initial;
     left: initial;
   
-    
     grid-column: 3 / 4;
     display: flex;
-    justify-content: flex-end;
+ 
     align-items: center;
   }
   
   nav ul {
     display: flex;
+
   }
   
   nav li {
     margin-left: 5em;
     margin-bottom: 0;
+    font-size: 1px;
+    margin-right:0;
   }
   
   nav a {
@@ -249,7 +253,7 @@ nav a:hover {
     content: '';
     display: block;
     height: 7px;
-    background: #043FF1;
+    background:black;
     position: absolute;
     top: -.75em;
     left: 0;
@@ -263,16 +267,64 @@ nav a:hover {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
 .logo {
     grid-column: 1 / 3;
-    width:8%;
+    max-width:50%;
     margin-top:0.5em;
     margin-bottom:0.5em;
 }
-
 }
 
+
+
+@media screen and (max-width: 1024px) {
+.logo {
+    grid-column: 1 / 3;
+    width:50%;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+}
+
+
+
+@media screen and (max-width: 1023px) {
+.logo {
+    grid-column: 1 / 3;
+    width:10%;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+}
+
+
+@media screen and (max-width: 1000px) {
+.logo {
+    grid-column: 1 / 3;
+    width:10%;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+}
+
+@media screen and (max-width: 769px) {
+.logo {
+    grid-column: 1 / 3;
+    width:10%;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+}
+
+@media screen and (max-width: 479px) {
+.logo {
+    grid-column: 1 / 3;
+    width:15%;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+}
 
 .styleguide_h2{
   font-size:45%;
@@ -354,7 +406,6 @@ div.color{
 
 @media screen and (max-width:769px){
   .home_h1{
-
  margin-bottom:20%;
  margin-top:15%;
  font-size: 40px;
@@ -670,6 +721,20 @@ margin-left:10%;
    opacity: 0.6;
 }
 
+.contact_heading{
+color: #1a1b1f;
+margin-top:3%;
+}
+
+#contact_email{
+margin-top:5%;
+
+}
+
+.contact{
+
+}
+
 @media screen and (max-width:1024px){
 .about_box{
   display:flex;
@@ -773,6 +838,71 @@ margin-bottom: 3%
    font-weight: 11px;
 margin-bottom: 3%
 }
+}
+
+.project1{
+  display:flex;
+  width:auto;
+margin-top:12%;
+   margin-bottom:10%;
+}
+
+.project_h3{
+margin-top:4%;
+margin-bottom:3%;
+}
+
+.project_box1_left{
+  margin-right:2%;
+  width:50%;
+ 
+}
+
+#home_box1_id{
+   padding-left:1%;
+  }
+
+.project_box1_right{
+   width:50%;
+
+}
+.project1_heading{
+  margin-top:2%;
+    margin-bottom:2%;
+    font-family: "tahoma",Arial, sans-serif;
+    font-size: 70px;
+
+}
+
+#project1_button{
+ margin-top:5%;
+  margin-left:auto;
+  margin-bottom: auto;
+}
+
+.brand-logo{
+width:100%;
+}
+
+.poster_img{
+  width:100%;
+}
+
+#project2_button{
+  margin-top:5%;
+}
+
+
+
+.title_year{
+color:#67686d;
+font-size: 20px;
+font-weight: bold;
+}
+
+.project-text{
+ font-family: 'Montserrat', Arial, sans-serif;
+ line-height: 200%;
 }
 
 #footer{
