@@ -24,7 +24,7 @@ body {
 
 header {
   background: var(--background);
-  text-align: ;
+
   position: relative;
   top:0px;
 
@@ -491,6 +491,7 @@ background-color: black;
 width:100%;
 }
 
+
 .poster_img{
   width:100%;
 }
@@ -876,6 +877,11 @@ margin-bottom:3%;
    width:50%;
 
 }
+
+.my_poster_img{
+width:100%;
+
+}
 .project1_heading{
   margin-top:2%;
     margin-bottom:2%;
@@ -892,6 +898,11 @@ margin-bottom:3%;
 
 .brand-logo{
 width:100%;
+}
+
+.project-brand-logo{
+width:100%;
+margin-top: 0%;
 }
 
 .poster_img{
@@ -935,6 +946,7 @@ font-weight: bold;
 
 .process_title{
   margin-bottom: 2%;
+  font-size: 25px;
 }
 
 .project_text{
@@ -1045,7 +1057,6 @@ width:100%;
 }
 
 .letterhead_img{
-
 width:100%;
 }
 
@@ -1079,6 +1090,11 @@ width:100%;
   color:white;
 }
 
+.new_wave_poster{
+  width:55%;
+  margin-left:15%;
+}
+
 .Melchior_left{
 display: flex;
 width:50%;
@@ -1087,6 +1103,11 @@ margin-right: 2%;
 
 .Melchior_right{
 width:50%;
+}
+
+.Melchior_poster_img{
+width: 100%;
+
 }
 
 .Melchior1{
@@ -1116,6 +1137,26 @@ margin-bottom: 2%;
 #poster4_3{
 margin-bottom: 2%;
 }
+
+.The_danish_girl_real_poster_img{
+width: 100%;
+}
+
+.CMYK_img{
+  width: 100%;
+}
+
+.CMYK1_img{
+   width: 100%;
+}
+.font_img{
+ width:100%;
+}
+
+.my_poster_grid_img{
+  width:100%;
+}
+
 
 @media screen and (max-width:1024px){
 .project1{
@@ -1147,12 +1188,16 @@ font-size: 30px;
   margin-top:0%;
     margin-bottom:0%;
     font-family: "tahoma",Arial, sans-serif;
-    font-size: 62px;
+    font-size: 50px;
 
 }
 
 .brand-logo{
 width:100%;
+}
+
+.my_poster_img{
+  width:100%;
 }
 
 .poster_img{
@@ -1162,8 +1207,6 @@ width:100%;
 #project2_button{
   margin-top:5%;
 }
-
-
 
 .title_year{
 color:#67686d;
@@ -1195,10 +1238,24 @@ font-weight: bold;
 
 }
 
+.new_wave_poster{
+   width:90%;
+   
+}
 
 .sketch_img{
   width:80%;
   margin-left:10%;
+}
+
+.Melchior_poster_img{
+   width:100%;
+   
+}
+
+.my_poster_grid_img{
+   width:100%;
+ 
 }
 
 .ai{
@@ -1253,9 +1310,6 @@ width:100%;
   justify-content: space-between;
 }
 
-
-
-
 .click_button{
   font-size: 20px;
   color:white;
@@ -1267,6 +1321,10 @@ width:100%;
 
 .click_button a{
   color:white;
+}
+
+.new_wave_poster{
+  margin-left: 0%;
 }
 
 .Melchior_left{
@@ -1340,7 +1398,7 @@ font-size: 30px;
   margin-top:0%;
     margin-bottom:0%;
     font-family: "tahoma",Arial, sans-serif;
-    font-size: 42px;
+    font-size: 38px;
 
 }
 
@@ -1351,6 +1409,11 @@ font-size: 30px;
 }
 
 .brand-logo{
+width:100%;
+
+}
+
+.project-brand-logo{
 width:100%;
 margin-top:30%;
 }
@@ -1375,6 +1438,8 @@ font-weight: bold;
  font-family: 'Montserrat', Arial, sans-serif;
  line-height: 200%;
 }
+
+
 
 .brainstorm{
   display: block;
@@ -1527,6 +1592,18 @@ width:100%;
   color:white;
 }
 
+.my_poster_img{
+margin-top:30%;
+}
+
+.new_wave_poster{
+margin-top:20%;
+}
+
+.Melchior_poster_img{
+  margin-top:15%;
+}
+
 .Melchior_left{
 display: flex;
 width:50%;
@@ -1547,10 +1624,17 @@ width:49%;
 
 .Melchior_img1{
   width:100%;
+  margin-top: 30%;
 }
 
 .Melchior_img2{
   width:100%;
+    margin-top: 30%;
+}
+
+.my_poster_grid_img{
+width:100%;
+margin-top: 15%;
 }
 
 #poster4_1{
@@ -1613,6 +1697,11 @@ width:100%;
 margin-top:0%;
 }
 
+.project-brand-logo{
+width:100%;
+margin-top: 0%;
+}
+
 .poster_img{
   width:100%;
 }
@@ -1627,6 +1716,10 @@ margin-top:0%;
 color:#67686d;
 font-size: 20px;
 font-weight: bold;
+}
+
+.my_poster_img{
+  margin-top: 0%;
 }
 
 .project-text{
@@ -1712,6 +1805,14 @@ font-weight: bold;
   margin-top:0%;
   margin-left:0;
 
+}
+
+.new_wave_poster{
+  width:100%;
+}
+
+.Melchior_poster_img{
+  margin-top: 0%;
 }
 
 .ai{
@@ -1803,20 +1904,21 @@ width:100%;
 
 .Melchior_left{
 display: flex;
-width:50%;
-margin-right: 2%;
+width:100%;
+order: 2;
 }
 
 .Melchior_right{
-width:50%;
+width:100%;
+order: 1;
 }
 
 .Melchior1{
-width:49%;
+width:50%;
 }
 
 .Melchior2{
-width:49%;
+width:50%;
 }
 
 .Melchior_img1{
