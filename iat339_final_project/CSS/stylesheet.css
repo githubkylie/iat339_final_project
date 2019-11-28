@@ -1573,7 +1573,8 @@ font-weight: bold;
 
 .sketch_img{
   width:100%;
-  margin-top:15%;
+  margin-top:10%;
+  margin-left: 0%
 }
 
 .ai{
@@ -1592,7 +1593,7 @@ margin-bottom:10%;
 .ai_img{
   width:80%;
   margin-left: 10%;
-  margin-top: 30%;
+  margin-top: 15%;
 }
 
 .logo_color{
@@ -1915,7 +1916,7 @@ margin-bottom:20%;
 
 .ai_img{
   width:80%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 0%;
 }
 
