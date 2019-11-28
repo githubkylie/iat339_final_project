@@ -40,7 +40,6 @@ header {
 
 h1{
   font-family: "Montserrat", Arial, sans-serif;
- 
   margin:0;
   padding:0;
  width:100%;
@@ -58,7 +57,7 @@ h2{
 
 
 h3{
-   font-family: "Verdana", Helvetica, sans-serif;
+   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight:normal;
    font-size: 30px;
    color:#67686d;
@@ -79,9 +78,10 @@ li,a {
 
   p{
     line-height: 150%;
-   
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight:lighter;
     margin-bottom: 1%;
+    font-size: 16px;
   }
 
    
@@ -335,16 +335,31 @@ nav a:hover {
 }
 }
 
+ #overlay a:hover{
+    opacity: 0.4;
+    transition: .5s ease;
+  }
+
+.styleguide_h1{
+font-size: 42px;
+width:100%;
+}
+
 .styleguide_h2{
-  font-size:45%;
+  font-size:36px;
   font-weight:bold;
   margin-top:5%;
 
 }
 
 .styleguide_h3{
-  font-size:40%;
-    margin-top:1%;
+  font-size:30px;
+    margin-top:2%;
+  font-weight:bold;
+}
+
+.styleguide_h3_1{
+  font-size:30px;
   font-weight:bold;
 }
 
@@ -354,9 +369,32 @@ margin-top:1%;
 }
 
 .sample-code{
-  font-size:80%;
+  font-size:60%;
   background-color: #eee;
   margin-top:1%;
+  margin-bottom: 2%;
+  padding: 1%;
+ 
+}
+
+.styleguide_img{
+  width:50%;
+}
+
+.styleguide_color{
+  border:1px solid black;
+}
+
+p a{
+  color:black;
+}
+
+p a:hover{
+  color:#67686d;
+}
+
+#styleguide_button1{
+  margin-top:0%;
 }
 
 #interactive_elements{
@@ -404,6 +442,10 @@ div.color{
  
 }
 
+.h1-span{
+  background-color: black;
+  color:white;
+}
 @media screen and (max-width:1024px){
   .home_h1{
  margin-left:1%;
@@ -499,6 +541,8 @@ width:100%;
 #project2_button{
   margin-top:5%;
 }
+
+
 
 .title_h1{
 color:#67686d;
@@ -2087,4 +2131,6 @@ margin-top:0%;
   list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
    list-style-position: inside;
 }
+
+
 
