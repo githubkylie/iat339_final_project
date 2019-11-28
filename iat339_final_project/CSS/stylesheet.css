@@ -69,7 +69,7 @@ h4{
  font-size: 150%;
   font-weight:lighter;
     margin:0;
-      padding:0;s
+      padding:0;
 }
 
 li,a {
@@ -114,7 +114,7 @@ text-decoration:none;
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(black, .75);
+  
 }
 
 .nav-toggle-label {
@@ -220,7 +220,7 @@ nav a:hover {
   }
   
   nav {
-    all: unset; 
+    
 
     position: relative;
  
@@ -335,7 +335,7 @@ nav a:hover {
 }
 }
 
- #overlay a:hover{
+ .overlay a:hover{
     opacity: 0.4;
     transition: .5s ease;
   }
@@ -518,13 +518,19 @@ div.color{
   
 }
 
-.view_button a:hover{
+.view_button_div a:hover{
 background-color: black;
   border: none;
   color: white;
   font-size: 20px;
   text-decoration: none;
 
+  }
+
+  .button_hover a:hover{
+    color:black;
+    background-color: white;
+    font-weight: bolder;
   }
 
 #project1_button{
@@ -837,7 +843,7 @@ margin-left:0%;
   width:90%;
    color:#1a1b1f;
    opacity: 0.6;
-   font-weight: 16px;
+   font-size: 16px;
 }
 }
 
@@ -884,7 +890,7 @@ text-align: center;
   width:100%;
    color:#1a1b1f;
    opacity: 0.6;
-   font-weight: 16px;
+   font-size: 16px;
 margin-bottom: 3%
 }
 }
@@ -894,7 +900,7 @@ margin-bottom: 3%
   width:100%;
    color:#1a1b1f;
    opacity: 0.6;
-   font-weight: 11px;
+   font-size: 11px;
 margin-bottom: 3%
 }
 }
@@ -1137,6 +1143,8 @@ width:100%;
 .click_button a{
   color:white;
 }
+
+
 
 .new_wave_poster{
   width:55%;
@@ -2081,7 +2089,23 @@ margin-top:0%;
     font-size:16px; 
 }
 
+ #citation_list ul li{
+    display: block;
+  }
+  #citation_list h2{
+    margin-bottom: 30px;
+  }
 
+  #citation_list p{
+  display: list-item;
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+   list-style-position: inside;
+   font-size: 11px;
+}
+
+#citation_list{
+  margin-top:5%;
+}
 
 @media screen and (min-width:30em){
   #footer ul{
@@ -2126,9 +2150,7 @@ margin-top:0%;
 }
   }
 
-.footer_box2{
-  
-}
+
 
 #citation_list p{
   display: list-item;
