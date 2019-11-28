@@ -385,6 +385,10 @@ margin-top:1%;
   border:1px solid black;
 }
 
+#stylieguide_nav{
+  padding-bottom: 10%;
+}
+
 p a{
   color:black;
 }
