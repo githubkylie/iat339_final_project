@@ -49,36 +49,80 @@
 <div class="styleguide_h3">
       <h3>In-text link</h3>
     </div>
-      <p>This is an <a href="#"> in-text link</a>.</p>
+    
+      <p> This is an <a href="styleguide.html">in-text link</a></p>
+      
+      </div>
+     
 
 <div class="sample-code">
       <h4>Sample Code</h4>
-    </div>
-        <code>&lt;p&gt;This is an&lt;a  href="index.html"&gt;in-text link&lt;/a&gt;&lt;/p&gt;</code>
-    
-  
-<div class="styleguide_h3">
-   <h3>Numbered Lists</h3>
-</div>
-  <ol>
-   <li>One</li>
-   <li>Two</li>
-   <li>Three</li>
-  </ol>
-
-<div class="sample-code">
-   <h4>Sample Code</h4>
- </div>
-   <code>&lt;ol&gt;<br>
-    &lt;li&gt;One&lt;/li&gt;<br>
-    &lt;li&gt;Two&lt;/li&gt;<br>
-    &lt;li&gt;Three&lt;/li&gt;<br>
-    &lt;/ol&gt;</code>
  
+        <code>&lt;p&gt;This is an&lt;a  href="styleguide.html"&gt;in-text link&lt;/a&gt;&lt;/p&gt;</code>
+       </div>
+
+ <div class="styleguide_h3">
+<h3>View Buttons</h3>
+</div>
+
+<div id="button_left">
+            <a href="Kylie_portfolio.html" >
+           <button  type="button" class="click_button"> 
+          Home</button></a>
+</div>
 
 
+  <div class="sample-code">
+    <h4>CSS Selectors</h4>
+    <p>.click_button</p>
 
 
+      <h4>Sample Code</h4>
+      <code>&lt;div id=&quot;button_left&quot;&gt;<br>
+            &lt;a href=&quot;Kylie_portfolio.html&quot; &gt;<br>
+           &lt;button  type=&quot;button&quot; class=&quot;click_button&quot;&gt; <br>
+          Home&lt;/button&gt;&lt;/a&gt;<br>
+&lt;/div&gt;<br>
+</code>
+    </div>
+
+     <button id="styleguide_button1" project2_button type="button" class="view_button"> 
+      <a  href="poster_design.html" >View project</a></button>
+
+  <div class="sample-code">
+    <h4>CSS Selectors</h4>
+    <p>.view_button</p>
+
+
+      <h4>Sample Code</h4>
+      <code> &lt;button id=&quot;styleguide_button1&quot; project2_button type=&quot;button&quot; class=&quot;view_button&quot;&gt; <br>
+      &lt;a  href=&quot;poster_design.html&quot; &gt;View project&lt;/a&gt;&lt;/button&gt;</code>
+    </div>
+
+    <h3>Image as a Link</h3>
+      <div class="overlay">
+        <a href="styleguide.html">
+       <img class="styleguide_img"  src="images/brand_design_logo.jpg" alt="adventurer's logo"  width="500">
+      </a>
+      </div>
+
+      <div class="sample-code">
+    <h4>CSS selector</h4>
+    <p>.overlay, .shop_img</p>
+
+      <h4>Sample Code</h4>
+    
+      <code>
+        &lt;div class=&quot;overlay&quot;&gt;<br>
+        &lt;a href=&quot;#&quot;&gt;<br>
+        &lt;img class=&quot;shop_img&quot;  src=&quot;images/water_volume.jpeg&quot; alt=&quot;The Water Volume Cover&quot; &gt;
+      &lt;/a&gt;<br>
+      &lt;/div&gt;<br>
+      </code>
+    </div>
+
+
+  
 
   </section>
 
@@ -100,12 +144,12 @@
 
 <div class="sample-code">
       <h4>Sample Code</h4>
-        </div>
+       
       <code>&lt;h1&gt;Heading1&lt;/h1&gt;<br>
     &lt;h2&gt;Heading2&lt;/h2&gt;<br>
     &lt;h3&gt;Heading3 &lt;/h3&gt;<br>
     &lt;h4&gt;Heading4&lt;/h4&gt;</code>
-  
+   </div>
 
 <div class="styleguide_h3">
       <h3>Paragraphs</h3>
@@ -118,10 +162,10 @@
 
 <div class="sample-code">
       <h4>Sample Code</h4>
-      </div>
+  
         <code>&lt;p&gt;Proin sollicitudin molestie auctor. Ut rutrum eros at nisi dignissim, sit amet maximus neque laoreet. Cras ullamcorper suscipit tincidunt. In a urna a mauris condimentum fermentum id quis ipsum. Pellentesque neque orci, ornare ac arcu mattis, posuere pretium tortor. Curabitur eu dolor vel nisi dapibus dapibus. Maecenas sodales risus vitae orci interdum venenatis.&lt;/p&gt;<br>
               &lt;p&gt;Mauris tempus euismod finibus. Vestibulum in tristique nulla, id semper dui. Etiam blandit dapibus molestie. In luctus elementum magna, a mattis risus ornare vestibulum. Quisque commodo dictum lacus. Morbi suscipit pretium nunc nec lacinia. Curabitur rhoncus eget dui id pulvinar. Proin mauris urna, tempus in augue ut, bibendum convallis dolor. Morbi malesuada, libero vitae imperdiet lacinia, nunc elit tristique nulla, in rhoncus ligula tellus ut felis. Aenean ultrices, urna eu ullamcorper porttitor, libero libero luctus eros, vitae vehicula diam neque sit amet ipsum. Aenean tincidunt velit interdum, sagittis nisl nec, eleifend massa. Aliquam augue erat, ultricies ac molestie non, interdum ac velit.&lt;/p&gt;</code>
-
+    </div>
   </section>
 
 
@@ -135,16 +179,13 @@
       <h3>Main Navigation</h3>
     </div>
       <header>
-
-  <img class="logo" src="images/logo.jpg" alt ="logo" >
-
   <input type="checkbox" id="nav-toggle" class="nav-toggle">
   <nav>
     <ul>
-      <li><a href="#0">Home</a></li>
-      <li><a href="#1">About</a></li>
-      <li><a href="#2">Work</a></li>
-      <li><a href="#2">Contact</a></li>
+      <li><a href="Kylie_portfolio.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="work.html">WORK</a></li>
+     
      
     </ul>
   </nav>
@@ -155,33 +196,34 @@
 
   </section>
 
-  <div class="css-selector">
+<div class="sample-code">
+
   <h4>CSS selector</h4>
-</div>
+
   <p>.logo, #nav-toggle, .nav-toggle</p>
-  <div class="sample-code">
+  
       <h4>Sample Code</h4>
-    </div>
+   
      
       <code>
-      &lt;img class=&quot;logo&quot; src=&quot;images/logo.jpg&quot; alt =&quot;logo&quot; &gt;<br>
-
+      &lt;header&gt;<br>
   &lt;input type=&quot;checkbox&quot; id=&quot;nav-toggle&quot; class=&quot;nav-toggle&quot;&gt;<br>
   &lt;nav&gt;<br>
     &lt;ul&gt;<br>
-      &lt;li&gt;&lt;a href=&quot;#0&quot;&gt;About&lt;/a&gt;&lt;/li&gt;<br>
-      &lt;li&gt;&lt;a href=&quot;#1&quot;&gt;Project&lt;/a&gt;&lt;/li&gt;<br>
-      &lt;li&gt;&lt;a href=&quot;#2&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;<br>
-      &lt;li&gt;&lt;a href=&quot;#2&quot;&gt;Website Templates&lt;/a&gt;&lt;/li&gt;<br>
+      &lt;li&gt;&lt;a href=&quot;Kylie_portfolio.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br>
+      &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;<br>
+      &lt;li&gt;&lt;a href=&quot;work.html&quot;&gt;Work&lt;/a&gt;&lt;/li&gt;<br>
+     
      
     &lt;/ul&gt;<br>
   &lt;/nav&gt;<br>
   &lt;label for=&quot;nav-toggle&quot; class=&quot;nav-toggle-label&quot;&gt;<br>
     &lt;span&gt;&lt;/span&gt;<br>
   &lt;/label&gt;<br>
+&lt;/header&gt;
      </code>
 
-
+ </div>
 
 
   <!--//DESIGN ELEMENTS -->
@@ -194,18 +236,19 @@
       <h3>Font</h3>
     </div>
     </div>
-    <h4>Heading1</h4>
-    <div class="bold">
-      <p>Oxygen-Bold</p>
-    </div>
+
+    <h4>Heading1 & 3 & 4 & paragraph</h4>
+
+      <h1 class="styleguide_h1">Montserrat</h1>
+       <h3 class="styleguide_h3_1">Montserrat</h3>
+        <h4>Montserrat</h4>
+         <p>Montserrat</p>
+  
 <br>
-    <h4>Heading2, 3, 4 & Navigation and Paragraphs</h4>
-    <div class="lighter">
-      <p>Oxygen-Lighter</p>
-    </div>
+    <h4>Heading2</h4>
+      <h2>Roboto Condensed</h2>
+      <br>
 
-
-    
 
 <div class="styleguide_h3">
       <h3>Colour palettes</h3>
@@ -213,7 +256,7 @@
     <div class="colorpalettes">
       <div class="color1">
         <figure >
-          <img class="color" src="images/blackcolor.jpg" alt="Black color" width="200">
+          <img class="styleguide_color" src="images/blackcolor.jpg" alt="Black color" width="200">
           <p>Paragraph & All Heading</p>
           <p>#000000</p>
         </figure>
@@ -221,17 +264,17 @@
 
       <div class="color2">
         <figure >
-          <img class="color" src="images/background_color.jpg" alt="One kind of bright color" height="200">
-          <p>Body Background</p>
-          <p>#f6f3f0</p>
+          <img class="styleguide_color" src="images/h3_color.jpg" alt="One kind of bright color" height="200">
+          <p>Heading 3</p>
+          <p>#67686d</p>
         </figure>
       </div>
 
 
       <div class="color3">
         <figure >
-          <img class="color" src="images/nav_bg_color.jpg" alt="White color" height="200">
-          <p>Navigation</p>
+          <img class="styleguide_color" src="images/nav_bg_color.jpg" alt="White color" height="200">
+          <p>Body & Navigation</p>
           <p>#ffffff</p>
         </figure>
       </div>
@@ -248,8 +291,7 @@
       <div class="container">
     <div class="footer_box">
       <div class="footer_box1">
-      <p>&copy; 2019, Another Escape</p>
-      <p>All Rights Reserved.</p>
+      <p>&copy; 2019 All Rights Reserved.</p>
      
       </div>
 
@@ -263,7 +305,7 @@
 </div>
 
  <div class="footer_box4">
-      <p> <a href="https://github.com/githubkylie/IAT339-Project2.git">Git Repository</a></p>
+      <p> <a href="https://github.com/githubkylie/iat339_final_project.git">Git Repository</a></p>
      
     </div>
     </div>
