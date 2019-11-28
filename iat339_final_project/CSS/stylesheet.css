@@ -1975,6 +1975,8 @@ margin-bottom: 2%;
  }
 }
 
+
+
 #footer{
   border-top-width: 1px;
   border-top-style: solid;
@@ -1983,6 +1985,106 @@ margin-bottom: 2%;
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 0.9em;
+}
 
+#footer a{
+  color:black;
+}
+
+#footer a:hover{
+  color:#67686d;
+}
+
+.footer_box{
+  display:flex;
+  justify-content: flex-start;
+}
+.footer_box1{
+  flex:1;
+  font-size: 11px;
+
+}
+
+.footer_box2{
+  flex:1;  
+
+margin-top:0%; 
+}
+
+.footer_box3{
+  flex:1;
+
+}
+
+.footer_box4{
+  flex:1;
+
+}
+
+.contact1{
+  color:black;
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+
+.contact2{
+  font-family: 'Ubuntu', sans-serif;
+   color:black;
+    font-size:16px; 
+}
+
+
+
+@media screen and (min-width:30em){
+  #footer ul{
+    width:90%;
+  }
+  .footer_box2{
+  flex:1;  
+
+margin-top:0%; 
+}
+}
+
+ 
+
+ 
+
+
+@media screen and (max-width:780px){
+
+  .footer_box{
+    display:block;
+    
+  }
+  .contact_box{
+    display:block;
+  }
+  .contact_box2{
+    margin-top: 30px;
+  }
+
+  .contact2{
+  margin-bottom: 5%;
+}
+
+
+  
+}
+
+@media screen and (max-width: 479px) {
+.contact2{
+  margin-bottom: 5%;
+}
+  }
+
+.footer_box2{
+  
+}
+
+#citation_list p{
+  display: list-item;
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+   list-style-position: inside;
 }
 
